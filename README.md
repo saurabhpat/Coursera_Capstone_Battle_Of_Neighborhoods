@@ -26,12 +26,12 @@ Project Workflow as follows:
 
 	The Rated Value for the year 2018 can be predicted somewhere between 160 to 165 using Simple Linear Regression
   
-  Found the neighborhoods where the restaurant can be choosed using K-Means Clustering algorithms. (More described in below section).
+  	Found the neighborhoods where the restaurant can be choosed using K-Means Clustering algorithms. (More described in below section).
 
 2) Clustering for blogspot
 	Decided to expose various boroughs in London and expose them into FourSquareAPI.
 	Stored borough name, latitude and longitude
-	Map stored boroughs on map using folium 
+	Mapped stored boroughs on map using folium 
 	After finding borough with highest Asian population, cluster the neighborhood only in this borough
 	Populate AreaName, Latitude and Longitude in this borough
 	Listed top 100 places around select borough upto a range of 500 kms radius
