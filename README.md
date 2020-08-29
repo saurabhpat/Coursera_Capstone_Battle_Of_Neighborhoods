@@ -17,10 +17,10 @@ Project Workflow as follows:
 	As I have the Rated Value data from 2008 to 2017, I have to predict what will be the rated value in 2018. I will use Linear Regression Machine Learning algorithm to predict the 2018 rated value.
 	I am taking the Earnings data and Licensed Restaurants data of "Newham" borough as the Independant Variables (X - variables) and will predict the Rated Value of the same borough and this predicted rated value becomes our Depedant Variable(Y-Variable)
 
-	Data Cleaning :
+	Data Cleaning:
 	Merge all the 3 DataFrames of Earnings, Licensed Restaurants and Rated Value into a new DataFrame
 
-	Data Exploration : 
+	Data Exploration: 
 	Observed that the Linear relationship exists between the Restaurants and the Rated Value
 	A good model can be used to predict what the approximate rated value of the location
 
@@ -29,13 +29,22 @@ Project Workflow as follows:
   	Found the neighborhoods where the restaurant can be choosed using K-Means Clustering algorithms. (More described in below section).
 
 2) Clustering for blogspot
-	Decided to expose various boroughs in London and expose them into FourSquareAPI.
+	Decided to expose various boroughs in London and expose them into FourSquareAPI
+
 	Stored borough name, latitude and longitude
+
 	Mapped stored boroughs on map using folium 
+
 	After finding borough with highest Asian population, cluster the neighborhood only in this borough
+
 	Populate AreaName, Latitude and Longitude in this borough
+
 	Listed top 100 places around select borough upto a range of 500 kms radius
+
 	Listed the venue, venue category, latitude, longitude into a dataframe
+
 	Find the frequency of each venue category in given neighborhood
+
 	Cluster the neighborhood venue categories grouping them by neighborhood. Also list top 10 popular places there
-	Find the neighborhood which does not feature Asian restaurant in top 10 popular places.
+
+	Find the neighborhood which does not feature Asian restaurant in top 10 popular places
